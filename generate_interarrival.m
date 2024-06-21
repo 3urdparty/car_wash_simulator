@@ -1,11 +1,4 @@
 function [interarrival ] = generate_interarrival(count=3)
-  % for i = 1:count
-  %   interarrival(i,1) = i;
-  %   interarrival(i,2) = 0;
-  %   interarrival(i,3) = 0;
-  %   interarrival(i,4) = 0;
-  %   interarrival(i,5) = 0;
-  % end
   interarrival = [
     2 0.3 0 0 0;
     3 0.4 0 0 0;
